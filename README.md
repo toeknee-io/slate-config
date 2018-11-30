@@ -1,0 +1,1 @@
+Config file for <a href="https://github.com/jigish/slate">Slate</a> (OSX window management application)
