@@ -17,7 +17,7 @@ S.cfga({
 var monLaptop = "1440x900";
 
 var monHomeWide = "2560x1080";
-var monHomeTall = "1080x2560";
+var monHomeTall = "1440x2560";
 
 var monWorkBig = "2560x1440";
 var monWorkMid = "1920x1080";
@@ -29,6 +29,7 @@ var apps = [
   "iTerm2",
   "Google Chrome",
   "Spring Tool Suite",
+  "Code",
   "Atom",
   "Sublime Text",
   "Finder",
@@ -154,6 +155,7 @@ var homeThreeMonitorLayout = slate.layout(homeThreeMonitorName, {
   "Google Chrome": chromeConf([ homeTallBot, homeTallTop ], homeWideFull),
   "Spring Tool Suite": defaultConf(homeWideFull),
   "Atom": defaultConf(homeWideFull),
+  "Code": defaultConf(homeWideFull),
   "Sublime Text": defaultConf(homeWideFull),
   "Finder": defaultConf(homeTallMidThree),
   "Messenger": defaultConf(homeTallMidThree),
