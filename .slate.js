@@ -32,14 +32,17 @@ var apps = [
   "Code",
   "Atom",
   "Sublime Text",
+  "Postman",
   "Finder",
   "Messenger",
   "HipChat",
   "Slack",
   "Trillian",
+  "DbVisualizer",
   "Oracle SQL Developer",
   "Robomongo",
-  "Spotify"
+  "Spotify",
+  "Kindle"
 ];
 
 // Stations //
@@ -167,7 +170,8 @@ var homeThreeMonitorLayout = slate.layout(homeThreeMonitorName, {
   "Robomongo": defaultConf(homeTallBot),
   "Spotify": defaultConf(homeTallBot),
   "Advanced REST client": defaultConf(homeTallBot),
-  "Postman": defaultConf(homeTallBot)
+  "Postman": defaultConf(homeTallBot),
+  "Kindle": defaultConf(laptopFull)
 });
 
 var workThreeMonitorName = 'workThreeMonitorLayout';
@@ -176,6 +180,7 @@ var workThreeMonitorLayout = slate.layout(workThreeMonitorName, {
   "Google Chrome": chromeConf(workMidRight, workBigFull),
   "Spring Tool Suite": defaultConf(workBigFull),
   "Atom": defaultConf(workBigFull),
+  "Code": defaultConf(workBigFull),
   "Sublime Text": defaultConf(workBigFull),
   "Finder": defaultConf(workMidLeft),
   "Messenger": defaultConf(workMidLeft),
@@ -187,7 +192,8 @@ var workThreeMonitorLayout = slate.layout(workThreeMonitorName, {
   "Sequel Pro": defaultConf(workMidRight),
   "Spotify": defaultConf(laptopFull),
   "Advanced REST client": defaultConf(workMidRight),
-  "Postman": defaultConf(workMidRight)
+  "Postman": defaultConf(workMidRight),
+  "Kindle": defaultConf(workMidLeft)
 });
 
 var laptopMonitorName = "laptopMonitorLayout";
